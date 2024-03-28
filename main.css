@@ -1,0 +1,217 @@
+body {
+    height: 1500px;
+    width: 100%;
+    background-color: rgb(12, 131, 131);
+    /* margin: 0%; */
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+/* общий контейнер */
+.containerALL {
+    display: flex;
+    width: 100%;
+    height: 8%;
+    background-color: red;
+}
+
+/* общий контейнер */
+
+/* задний фон верхней части */
+                                                /* .imgTOP {
+                                                    z-index: -1;
+                                                    position: absolute;
+                                                    width: 100%;
+
+
+                                                } */
+
+/* задний фон верхней части */
+
+/* культурно досуговый центр */
+.logo {
+    color: black;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 150%;
+    max-width: 70%;
+    max-height: 50%;
+    border: 1px solid black;
+    /* margin: 10%; */
+    /* margin-top: 3%; */
+    /* margin-bottom: 5%; */
+    margin-right: 10%;
+}
+
+.containerLOGO {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin-bottom: 2%; */
+    height: 100%;
+    width: 30%;
+}
+
+/* культурно досуговый центр */
+
+/* новости , анонсы , фотогалерея , события */
+.containerNA {
+    margin-left: 3%;
+    display: flex;
+    width: 10%;
+    /* height: %; */
+    margin-top: 1%;
+    flex-direction: column;
+}
+
+.containerNEWS {
+    /* margin-bottom: 5%; */
+    color: black;
+    max-width: 90%;
+}
+
+.NEWS {
+    border: 1px solid black;
+    margin: 0%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.containerANONS {
+    margin-top: 5%;
+    max-width: 90%;
+}
+
+.ANONS {
+    border: 1px solid black;
+    margin: 0%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: black;
+}
+
+.containerFC {
+    margin-left: 1%;
+    display: flex;
+    width: 11%;
+    margin-top: 1%;
+    flex-direction: column;
+}
+
+.containerFOTO {
+    max-width: 90%;
+}
+
+.FOTO {
+    margin: 0%;
+    border: 1px solid black;
+    color: black;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.containerCOB {
+    max-width: 100%;
+    margin-top: 5%;
+}
+
+.COB {
+    margin: 0%;
+    border: 1px solid black;
+    color: black;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+/* новости , анонсы , фотогалерея , события */
+
+/* о нас */
+.containerONAS {
+    margin-left: 2%;
+    display: flex;
+
+    width: 10%;
+    align-items: center;
+}
+
+.ONAS {
+    border: 1px solid black;
+    margin: 0%;
+    /* margin-bottom: 30%; */
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: black;
+}
+
+/* о нас */
+
+/* войти */
+.containerENTER {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+.borderENTER {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 40%;
+    height: 50%;
+
+}
+
+.ENTER {
+    max-width: 100%;
+    max-width: 100%;
+    color: black;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    align-self: center;
+    margin: 0%;
+
+}
+
+/* войти */
+.containerCENTER {
+    z-index: -2;
+    
+    display: flex;
+    justify-content: flex-start;
+    height: 60%;
+    width: 100%;
+}
+
+/* сведения о школе */
+.containerSVED {
+    /* justify-content: flex-start; */
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 70%;
+    margin-left: 5%;
+    border: 1px solid black;
+}
+
+.SVED {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    font-size: 200%;
+    justify-content: center;
+}
+
+/* сведения о школе */
+
+.containerKART{
+    justify-content: flex-end;
+    margin-top: 2%;
+    display: flex;
+    border-color: rgb(10, 78, 78);
+    width: 500px;
+    height: 800px;
+    margin-left: 5%;
+    border: 15px solid red;
+    border-radius: 45px;
+}
+.KART{
+    z-index: -1;
+}
